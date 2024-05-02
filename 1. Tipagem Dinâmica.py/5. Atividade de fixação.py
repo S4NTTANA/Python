@@ -3,8 +3,8 @@ import os
 os.system ("cls || clear")
 
 print ("\n=== Solicitando dados ===")
-pesoMorangos = float(input("Digite o peso de morangos (em kg): ")
-pesoMacas = float(input("Digite o peso de maçãs (em kg): ")
+pesoMorangos = float(input("Digite o peso de morangos (em kg): "))
+pesoMacas = float(input("Digite o peso de maçãs (em kg): "))
 
 if pesoMorangos < 5:
     precoMorango = 2.50
