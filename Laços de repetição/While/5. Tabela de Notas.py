@@ -11,7 +11,7 @@ while True :
     print("P - Ver quantas notas foram inseridas")
     print("N - Calcular média aritmética")
    
-    resposta = input("Deseja inserir uma nota: ")
+    resposta = input("Deseja inserir uma nota ? ")
     resposta = resposta.upper()
    
     if  resposta == "S":
