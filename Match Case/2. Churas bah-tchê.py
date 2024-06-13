@@ -27,20 +27,23 @@ while True:
         case 1:
             print("Prato - Picanha")
             print("Valor - R$ 25,00")
-            break
+             
         case 2:
             print("Prato - Lasanha")
             print("Valor - R$ 20,00")
-            break
+            
         case 3:
             print("Prato - Strogonoff")
             print("Valor - R$ 18,00")
-            break
+            
         case 4:
             print("Prato - Bife Acebolado")
             print("Valor - R$ 15,00")
-            break
+            
         case 5:
             print("Prato - Pão com Ovo")
             print("Valor - R$ 5,00")
+            
+        case 0:
+            print ("Pedido realizado")
             break
