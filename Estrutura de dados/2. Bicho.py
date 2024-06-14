@@ -7,13 +7,12 @@ BICHOS = 2
 # Classe
 @dataclass
 class Dados:
-    def __init__(self, nome, idade, raca)
-    nomes : str
-    idades : int
-    raças : str
-    portes : str
-    alimentacoes : str
-
+    def __init__(self, nome, idade, raca, porte, alimentacao):
+        self.nomes = nome
+        self.idades = idade
+        self.racas = raca
+        self.portes = porte
+        self.alimentacoes = alimentacao
 bichos = []
 
 
