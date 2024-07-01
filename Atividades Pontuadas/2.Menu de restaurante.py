@@ -47,13 +47,13 @@ while True:
             pedidos.append(resultado)
             soma += 18
         case 4:
-            resultado = "4 - Bife acebolado"
+            resultado = "4 - Bife acebolado - R$ 15,00"
             print ("\nPrato 4 - Bife acebolado")
             print ("Valor - R$ 15,00")
             pedidos.append(resultado)
             soma += 15
         case 5:
-            resutlado = "5 - Pão com Ovo - R$ 5,00"
+            resultado = "5 - Pão com Ovo - R$ 5,00"
             print ("\nPrato 5 - Pão com Ovo")
             print ("Valor - R$ 5,00")
             pedidos.append(resultado)

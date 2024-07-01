@@ -32,7 +32,7 @@ def calculoIrff(salario):
         descontoIrff = salario * 0.275
     
     descontoIrff = descontoIrff + deducaoDependente
-
+ 
     return descontoIrff
         
 def calculoTransporte(salario):
